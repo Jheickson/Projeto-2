@@ -1,0 +1,27 @@
+body {
+
+    display: grid;
+    place-items: center;
+
+    background-color: whitesmoke;
+
+}
+
+html, body {
+
+    height: 100%;
+
+}
+
+.back {
+
+    display: grid;
+    place-items: bottom;
+
+}
+
+fieldset {
+
+    font-size: 125%;
+
+}

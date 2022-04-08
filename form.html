@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Formulário de cadastro</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+    <body>
+
+        <main>
+
+                <div class="content">
+
+                    <form id="form" method="get" onsubmit="alert('Formulário enviado com sucesso!')">
+
+                        <fieldset>
+
+                            <legend>Formulário de Cadastro</legend>
+
+                        <label> Nome Completo: </label> <br>
+                        <input type="text" id="name" name="name" size="35" required autofocus/>
+
+                        <br>
+
+                        <label> CPF</label> <br>
+                        <input type="text" id="cpf" name="cpf" size="25" placeholder="***.***.***-**" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" required/>
+
+                        <br>
+
+                        <label> Email: </label> <br>
+                        <input type="email" id="email" name="email" size="35" placeholder="exemploemail@email.com" required/>
+
+                        <br>
+
+                        <label> Telefone: </label> <br>
+                        <input type="tel" id="phone" name="phone" size="35" placeholder="DD *****-****" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required/>
+
+                        <br>
+
+                        <label> Perfil Github (Link): </label> <br>
+                        <input type="url" id="git" name="git" size="35" placeholder="https://github.com/Usuario" required/>
+        
+                        <br>
+        
+                        <label> Senha: </label> <br>
+                        <input type="password" id="password" name="password" size="35" required/>
+        
+                        <br>
+        
+                        <input type="checkbox" id="control" required/>
+                        <label>Confirmo os dados acima</label> <br>
+        
+                        <input type="submit" value="Confirmar"/> <input type="reset" value="Resetar"/>
+        
+                        </fieldset>
+        
+                    </form>
+
+                </div>
+
+
+        </main>
+        
+    </body>
+
+    <form action="index.html" method="get">
+
+        <input class="back" type="submit" value="Voltar">
+
+    </form>    
+    
+</html>
