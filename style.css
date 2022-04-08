@@ -11,14 +11,18 @@ html, body {
 
 }
 
-
 h1,h2 {
 
     display: grid;
     place-items: center;
 
+    padding: 20px;
+
     font-size: auto;
 
+    border-color: gray;
+    border-width: 15px;
+    border-style: inset;
 
 }
 
