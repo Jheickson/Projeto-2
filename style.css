@@ -1,17 +1,27 @@
-body {
+html, body {
+
+    display: grid;
+    place-items: center;
+    height: 75%;
+    background-color: whitesmoke;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+
+h1,h2 {
 
     display: grid;
     place-items: center;
 
-    background-color: whitesmoke;
+    font-size: auto;
+
 
 }
 
-html, body {
-
-    height: 100%;
-
-}
 
 .back {
 
